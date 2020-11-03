@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  accessKeyId: "YourAccessKeyId",
+  secretAccessKey: "YourSecretAccessKey",
+  region: "us-east-1",
+  bucketName: "YourBucketName",
+  baseFolder: "images/", 
 };
 
 /*
